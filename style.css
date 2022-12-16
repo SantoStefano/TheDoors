@@ -1,0 +1,180 @@
+ body, html {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 90vw;
+  height: 85vh;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: lavenderblush;
+  position: relative;
+}
+.doors {
+  height: 64vh;
+  width: 18vw;
+}
+.floor1 {
+  background: url('images/door1.png');
+   background-size: cover;
+  background-position: 50%; 
+}
+.floor2 {
+  background: url('images/door2.png');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor3 {
+  background: url('images/door3.png');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor4 {
+  background: url('images/doortest2.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor5 {
+  background: url('images/doortest5.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor6 {
+  background: url('images/doortest6.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor7 {
+  background: url('images/doortest11.png');
+  background-size: cover;
+  background-position: 50%;
+}
+.floor8 {
+  background: url('images/doortest10.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+.randitem {
+  padding-top: 20px;
+} 
+
+img {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.hide {
+  visibility: hidden;
+}
+.counter {
+  width: 150px;
+  background: #faf9f9;
+  position: absolute;
+  top: 0;
+  padding: 3px;
+  font-size: 26px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.floor {
+  margin-right: 5px;
+}
+.heartImg img {
+  width: 20px;
+  height: 20px;
+}
+
+.skullbg {
+  background: #fff;
+  box-shadow: 0 0 10px #000;
+}
+.heartbg {
+  background: #fff;
+  box-shadow: 0 0 10px #eb0948;
+}
+.stairbg {
+  background: #fff;
+  box-shadow: 0 0 10px #025976;
+}
+.stairdownbg {
+  background: #fff;
+  box-shadow: 0 0 10px #ffb60a;
+}
+
+.conbg1 {
+  background: lavenderblush;
+}
+.conbg2 {
+  background: #bec2d96b;
+}
+.conbg3 {
+  background: #ff5e00e3;
+}
+.conbg4 {
+  background: #670ae1d1;
+}
+.conbg5 {
+  background: #433a44;
+}
+.conbg6 {
+  background: #00796ae0;
+}
+.conbg7 {
+  background: #ede53ae0;
+}
+.conbg8 {
+  background: #070639f5;
+}
+
+.animatedheart {  
+  animation-name: getbigger;
+  animation-duration: 0.6s;
+  animation-iteration-count: 3;
+}
+@keyframes getbigger{
+  from {
+    width: 100%;
+  }
+  to {
+    width: 104%;
+  }
+}
+.animatedskull {  
+  animation-name: lean;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+@keyframes lean{
+  0% {
+    
+  }
+  50% {
+    transform: rotate(60deg)
+  }
+  100% {
+    transform: rotate(-60deg);
+  }
+}
+
+.end, .win {
+  width: 200px;
+  font-family: fantasy;
+  font-size: 1.8rem;
+}
+.endButton, .winButton {
+  border-radius: 15px;
+  padding: 15px;
+  font-weight: 500;
+}
+
+
+
+ 
+
+
