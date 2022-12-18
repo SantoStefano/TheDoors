@@ -1,3 +1,4 @@
+
 let insideMas = ['<img src="./images/heart.png" alt="heart">', '<img src="./images/skull.png" alt="skull">', '<img src="./images/stair.png" alt="stair">', '<img src="./images/stairdown.png" alt="stairdown">'];
 let floorCount = 1;
 let floor = document.querySelector('.floor');
@@ -118,7 +119,7 @@ function toEnd() {
 function win() {
   let win = document.createElement('div');
   win.className = 'win';
-  win.textContent = 'Восхищены вашей интуицией!Поздравляем!Сможете ещё?';
+  win.textContent = 'Ты прошел!!!!! Сможешь ещё?';
   let winButton = document.createElement('button');
   winButton.classList = 'winButton';
   winButton.textContent = "Смогу";

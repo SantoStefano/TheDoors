@@ -19,6 +19,12 @@
   height: 64vh;
   width: 18vw;
 }
+@media screen and (orientation: portrait){
+    .doors {
+      height: 18vh;
+      width: 18vw;
+    }
+}
 .floor1 {
   background: url('images/door1.png');
    background-size: cover;
@@ -73,7 +79,6 @@ img {
   visibility: hidden;
 }
 .counter {
-  width: 150px;
   background: #faf9f9;
   position: absolute;
   top: 0;
@@ -163,9 +168,8 @@ img {
 }
 
 .end, .win {
-  width: 200px;
-  font-family: fantasy;
-  font-size: 1.8rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
 }
 .endButton, .winButton {
   border-radius: 15px;
