@@ -7,7 +7,7 @@ a heart that increases your game lives, and a skull that takes your game lives.
 The goal is to make it to the ninth floor by using only your intuition. Good luck!
 
 Adaptive web design.
+On a phone, it looks better in landscape view.
 
 try it:
-
 https://the-doors.vercel.app
